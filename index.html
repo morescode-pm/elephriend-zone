@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephriend Zone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="ui-overlay">
+            <div id="score">Score: 0</div>
+            <div id="resources">Resources: 100</div>
+        </div>
+        <div id="startOverlay" class="start-overlay">
+            <button id="startButton" class="start-button">Start Game</button>
+        </div>
+    </div><div class="controls">
+        <div class="deterrent-selector">
+            <button id="beehive" class="deterrent-btn active" data-cost="25">Beehive Fence (25)</button>
+            <button id="chili" class="deterrent-btn" data-cost="15">Chili Plants (15)</button>
+            <button id="light" class="deterrent-btn" data-cost="20">Solar Lights (20)</button>
+        </div>
+        <div class="info">
+            <h3>Elephant-Friendly Deterrents:</h3>
+            <ul>
+                <li>Beehive Fences: Most effective but expensive</li>
+                <li>Chili Pepper Plants: Affordable natural deterrent</li>
+                <li>Solar-Powered Lights: Medium range deterrent</li>
+            </ul>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
