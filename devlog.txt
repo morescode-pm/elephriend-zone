@@ -1,0 +1,38 @@
+Elephriend Zone - Development Log
+================================
+
+This log documents the step-by-step creation and iteration of the "Elephriend Zone" game project.
+
+---
+
+1. **Project Initialization**
+   - Set up a lightweight browser game using HTML5 Canvas and vanilla JavaScript for low bandwidth and slow computer compatibility.
+   - Created `index.html`, `styles.css`, and `game.js` with a simple UI and game loop.
+
+2. **Initial Game Mechanics**
+   - Elephants spawn at the edges and move toward randomly placed farms.
+   - Player can place deterrents (beehive, chili, solar light) to repel elephants.
+   - Game over if an elephant reaches a farm.
+
+3. **UI and Controls**
+   - Added deterrent selection buttons and mouse-based placement.
+   - Added resource and score display.
+
+4. **Gameplay Adjustments**
+   - Made farms smaller and slowed down elephant movement and spawn rate.
+   - Added a start button overlay so the player can get ready before the game begins.
+   - Elephants now turn around and exit the screen when repelled by a deterrent.
+   - Farmer resources increase very slowly in 5 point increments every 10 seconds.
+
+5. **Bug Fixes and Iteration**
+   - Fixed syntax errors and improved code structure for readability and maintainability.
+   - Ensured elephants are properly removed from the game when they leave the screen.
+   - Allowed the game to be restarted after game over by clicking the start button again.
+
+6. **Current State**
+   - The game is playable, with all requested features implemented.
+   - The code is organized and commented for clarity.
+
+---
+
+This log was generated on 2025-06-03 using GitHub Copilot as the coding assistant.
